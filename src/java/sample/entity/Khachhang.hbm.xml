@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-Oct-2016 10:32:38 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="assignsof301" name="sample.entity.Khachhang" optimistic-lock="version" table="khachhang">
+    <id name="maKhachHang" type="string">
+      <column length="50" name="MaKhachHang"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="matKhau" type="string">
+      <column length="50" name="MatKhau"/>
+    </property>
+    <property name="hoVaTen" type="string">
+      <column length="50" name="HoVaTen"/>
+    </property>
+    <property name="email" type="string">
+      <column length="50" name="Email"/>
+    </property>
+    <property name="dienThoai" type="string">
+      <column length="50" name="DienThoai"/>
+    </property>
+  </class>
+</hibernate-mapping>
